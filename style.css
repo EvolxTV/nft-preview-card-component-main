@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background-color: hsl(217, 54%, 11%);
+}
+.container {
+  max-width: 410px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 1rem;
+  box-shadow: 0px 30px 0px 15px rgba(0, 0, 0, 0.1),
+    0px 15px 0px 40px rgba(0, 0, 0, 0.05);
+}
+.main-image img {
+  margin-top: 30px;
+  width: 100%;
+  border-radius: 1rem;
+  max-width: 360px;
+}
+section {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+}
+section h1 {
+  text-align: start;
+  color: hsl(0, 0%, 100%);
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+section p {
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+  font-size: 18px;
+}
+.cryptoCoins {
+  width: 85%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.etherium {
+  font-size: 18px;
+  font-weight: 600;
+  color: hsl(178, 100%, 50%);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.etherium #eth-id {
+  margin-right: 7px;
+  max-width: 18px;
+  max-height: 18px;
+}
+.timer {
+  font-weight: 400;
+  color: hsl(215, 51%, 70%);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  font-size: 18px;
+}
+.timer #timer-id {
+  margin-right: 7px;
+  max-width: 18px;
+  max-height: 18px;
+}
+hr {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  width: 85%;
+  border: 1px transparent hsl(215, 51%, 70%);
+  opacity: 20%;
+}
+.creation {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  margin-bottom: 30px;
+  width: 85%;
+  font-weight: 300;
+}
+.creation img {
+  max-width: 32px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.creation #n1 {
+  margin-left: 15px;
+  color: hsl(215, 51%, 70%);
+}
+.creation #n2 {
+  margin-left: 4px;
+  color: hsl(0, 0%, 100%);
+}
